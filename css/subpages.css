@@ -1,0 +1,84 @@
+.bg-rose{
+    background-color: rgb(162, 77, 114, 0.6);
+    border-radius: 40%;
+    padding: 5%;
+}
+.bg-red{
+    background-color: rgb(187, 61, 61);
+}
+
+body{
+    background-color: #aeced9;
+}
+/* Sidebar */
+aside{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+
+}
+.social-media{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 18vw;
+    margin-top: 0.25vh;
+    border-radius: 0vh 3vh 3vh 0vh;
+    text-align: left;
+
+    transform: translate(-26.8vw, 0px);
+    transition: 1s;
+}
+.social-media:hover{
+    text-decoration: none;
+    transform: translate(-15vw, 0px);
+}
+
+#fb{
+    background-color: rgb(58, 87, 155);
+}
+#yt{
+    background-color: rgb(219, 43, 66);
+}
+#tw{
+    background-color: rgb(88, 174, 231);
+}
+#ig{
+    background-image: url(/images/ig-bg.jpg);
+    background-size: 100% 100%;
+}
+
+.social-media-icon{
+    width: 12vw;
+    margin: 0.2vh;
+}
+
+.sm-text{
+    text-decoration: none;
+    color: white;
+    /* font-size: 2vh; */
+    font-family: 'Avantgarde';
+    font-style: oblique;
+    /* text-align: left; */
+}
+
+.sm-icons{
+    float: right;
+    margin-right: 0.5vw;
+    margin-left: 2vw;
+    vertical-align: middle;
+    height: 5vh;
+    transition: 0.6s;
+}
+.sm-icons:hover{
+    transform: rotate(360deg);
+}
+
+.us-img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5vh;
+    padding-bottom: 5vh;
+    background-color: rgb(224, 220, 220);
+}

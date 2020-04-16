@@ -1,0 +1,89 @@
+
+#lang-container .wrapper{
+width: 100%;
+margin: 2em auto;
+background: #3D464E;
+clear: both;
+overflow: hidden;
+}
+
+#lang-container ul{
+margin: 0px auto;
+}
+
+#lang-container ul li{
+border-right: 1px solid #3D464E;
+cursor: pointer;
+float: left;
+overflow: hidden;
+height: 177px;
+list-style: none;
+position: relative;
+/* width: 72px; */
+width: 150px;
+transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+background: #fff;
+}
+
+#lang-container li a{
+display: block;
+width: 300px;
+height: 177px;
+line-height: 177px;
+color: #fff;
+text-decoration: none;
+text-indent: 10px;
+height: 177px;
+left: 0;
+position: absolute;
+top: 0;
+width: 150px;  
+text-indent: -999px;
+transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+}
+
+#lang-container ul li:first-child a{
+background: url("/images/german.png") left top;
+background-size: cover;
+}
+
+#lang-container ul li:nth-child(2) a{
+background: url("/images/english.png") left top;
+background-size: cover;
+}
+
+#lang-container ul li:nth-child(3) a{
+background: url("/images/vietnamese.png"); 
+background-size: cover;
+}
+
+#lang-container ul li:nth-child(4) a{
+background: url("/images/french.png"); 
+background-size: cover;
+}
+
+#lang-container ul li:nth-child(5) a{
+background: url("/images/chinese.png"); 
+background-size: cover;
+}
+
+#lang-container ul li:hover a{
+background-position: right top;
+}
+
+#lang-container ul li:hover{
+width: 428px;
+}
+
+#lang-container p{
+color: #5F5F5F;
+font-size: 15px;
+letter-spacing: 0;
+line-height: 18px;
+padding-top: 40px;
+width: 225px;
+margin: 0px 14em;
+}
+

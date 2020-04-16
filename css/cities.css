@@ -1,0 +1,7 @@
+.card{
+    margin: auto;
+}
+.card .card-title{
+    color: black;
+    text-align: center;
+}
