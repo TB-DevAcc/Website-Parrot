@@ -10,11 +10,11 @@
 This is a project to create a website for a company that offers language meetups.
 
 #### :date: Timeframe for the project
-The challenge was to create a startup and complete its website within 1 week. (09.03.20-16.03.20)
+The challenge was to create a startup and complete its website within 1 week. (24.02.20-02.03.20)
 
 #### :clapper: Presentation
 
-The complete Website can be viewed [here](). Here is a short preview of the site:
+The complete Website can be viewed [here](https://distracted-leavitt-1e00be.netlify.app). Here is a short preview of the site:
 
 <p align="center">
     <img src="media/parrot_preview.jpg" witdh="60%">
